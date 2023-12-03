@@ -34,7 +34,6 @@
   
   .carousel-image img {
     object-fit: cover;
-    width: 100%;
     height: 100%;
     border-radius: 10px;
   }
@@ -42,7 +41,6 @@
   /* Adjust the carousel caption style */
   .carousel-caption {
     background-color: rgba(0, 0, 0, 0.7); /* Background color for caption */
-    width: 100%;
     position: absolute;
     bottom: 0;
     padding: 10px;
