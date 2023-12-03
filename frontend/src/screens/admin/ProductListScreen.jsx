@@ -47,6 +47,8 @@ const ProductListScreen = () => {
     }
   };
 
+  
+
   return (
     <>
       <Row className='align-items-center'>
