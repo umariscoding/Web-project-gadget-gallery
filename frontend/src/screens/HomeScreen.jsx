@@ -10,6 +10,8 @@ import ProductCarousel from '../components/ProductCarousel';
 import Meta from '../components/Meta';
 import CustomerTestimonials from '../components/CustomerTestimonials';
 import ImageWithText from '../components/ImageWithText';
+// import GoogleMap from '../components/GoogleMap';
+import MapComponent from '../components/GoogleMap';
 
 
 
@@ -81,7 +83,7 @@ const HomeScreen = () => {
         <CustomerTestimonials testimonials={testimonialsData} />
         {/* <LimitedTimeOffers products={limitedTimeOffersData} /> */}
         <ImageWithText image={imageWithTextData.image} text={imageWithTextData.text} />
-        
+        <MapComponent/>
     </>
   );
 };
