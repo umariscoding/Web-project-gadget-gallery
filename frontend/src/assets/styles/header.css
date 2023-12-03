@@ -1,0 +1,27 @@
+/* header.css */
+
+/* Ensure the background color is set to the header */
+header.custom-header {
+    background-color: #212b28;
+  }
+  
+  /* Change text color on hover */
+  header.custom-header .nav-link,
+  header.custom-header .nav-link:hover {
+    color: white;
+  }
+  
+  /* Change text color on hover */
+  header.custom-header .nav-link:hover {
+    color: #91bc08;
+  }
+  
+  header.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+  /* Override Bootstrap for header background */
+  header.navbar-dark {
+    background-color: #212b28 !important;
+  }
+  

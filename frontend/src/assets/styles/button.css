@@ -1,0 +1,29 @@
+/* SearchBox.css */
+
+/* Adjust border-radius for the button */
+.search-btn {
+    border-radius: 20px; /* Modify this value to your preference */
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#fff
+  }
+  
+  /* Add hover effect to the button with the specified color */
+  .search-btn:hover {
+    background-color: #91bc08; /* Hover color */
+    color: #fff; /* Text color on hover */
+  }
+  
+  .login-btn {
+    border-radius: 20px; /* Modify this value to your preference */
+    margin-top: 10px;
+    border-color: #212b28;
+    color:#212b28
+  }
+  
+  /* Add hover effect to the button with the specified color */
+  .login-btn:hover {
+    background-color: #91bc08; /* Hover color */
+    color: #fff; /* Text color on hover */
+  }
+  

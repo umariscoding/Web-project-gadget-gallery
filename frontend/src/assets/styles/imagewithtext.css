@@ -1,0 +1,33 @@
+.image-with-text-section {
+    position: relative;
+    background-size: cover; /* Ensure the image covers the entire div */
+    background-position: center; /* Center the background image */
+    height: 300px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Spacing around the section */
+  }
+  
+  .overlay-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%; /* Limit the width of the text box */
+  }
+  
+  .overlay-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .overlay-text h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
